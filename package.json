@@ -1,0 +1,21 @@
+{
+  "name": "todo-service-with-db",
+  "version": "1.0.0",
+  "description": "ToDo Service",
+  "type": "module",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "http-status": "^1.5.0",
+    "mongoose": "^6.0.7"
+  }
+}
